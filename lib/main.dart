@@ -35,7 +35,7 @@ class MyHomePage extends StatelessWidget {
         title: Text(
           'Login Screen App',
           style: TextStyle(
-            color: Colors.white, // Set app bar title text color to white
+            color: Colors.white, 
           ),
         ),
       ),
@@ -43,7 +43,7 @@ class MyHomePage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            SizedBox(height: 5), // Reduce space between 'codeplayon' and top of page
+            SizedBox(height: 5), 
             const Text(
               'codeplayon',
               style: TextStyle(
